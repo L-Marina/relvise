@@ -1,0 +1,224 @@
+/*---------css-----------------*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	background-color: #fafafa;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ ul,li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	border: 20px solid green;
+}
+
+.block {
+	padding: 50px;
+	max-width: 1170px;
+	margin:0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.block_item {
+	margin: 30px;
+}
+
+.square {
+	width: 150px;
+	height: 150px;
+	background-color: green;
+}
+
+.square:hover {
+	background-color: red;
+}
+
+.restange {
+	width: 300px;
+	height: 150px;
+	background-color: green;
+}
+
+.restange:hover {
+	background-color: rgb(218, 138, 19);
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: green;
+}
+
+.circle:hover {
+	background-color: rgb(198, 218, 19);
+}
+
+.oval {
+	width: 300px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: green;
+}
+
+.oval:hover {
+	background-color: rgb(142, 218, 19);
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+
+.triangle-up:hover {
+	border-bottom: 100px solid rgb(0, 119, 128);
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid green;
+}
+
+.triangle-down:hover {
+	border-top: 100px solid rgb(0, 2, 128);
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+
+.triangle-left:hover {
+	border-right: 100px solid rgb(77, 0, 128);
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+
+.triangle-right:hover {
+	border-left: 100px solid rgb(128, 0, 96);
+}
+
+.parallelogram {
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	transform: skew(15deg);
+}
+
+.parallelogram:hover {
+	background-color: rgb(97, 48, 48);
+	}
+
+.trapetoid {
+	width: 200px;
+	border-bottom: 100px solid green;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+}
+
+.trapetoid:hover {
+	border-bottom: 100px solid rgb(128, 128, 128);
+}
