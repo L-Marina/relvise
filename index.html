@@ -15,15 +15,15 @@
 	<div class="wrapper">
 		<div class="header">
 			<div class="header__home">
-				<div class="header__logo">Startup</div>
+				<div id="home" class="header__logo">Startup</div>
 				<ul class="header__link">
-					<a href="#"><li class="link-header">Home</li></a>
-					<a href="#"><li class="link-header">Services</li></a>
-					<a href="#"><li class="link-header">About </li></a>
-					<a href="#"><li class="link-header">Works</li></a>
-					<a href="#"><li class="link-header"> Blog</li></a>
-					<a href="#"><li class="link-header">Clients</li></a>
-					<a href="#"><li class="link-header">Contact</li></a>
+					<a href="#home"><li class="link-header">Home</li></a>
+					<a href="#services"><li class="link-header">Services</li></a>
+					<a href="#about"><li class="link-header">About </li></a>
+					<a href="#works"><li class="link-header">Works</li></a>
+					<a href="#blog"><li class="link-header"> Blog</li></a>
+					<a href="#clients"><li class="link-header">Clients</li></a>
+					<a href="#contact"><li class="link-header">Contact</li></a>
 				</ul>
 			</div>
 		
@@ -40,7 +40,7 @@
 
 			<div class="wrapper__services">
 				<div class="title__info">
-					<div class="info-title">Services</div>
+					<div id="services" class="info-title">Services</div>
 					<div class="info-subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
 				</div>
 				
@@ -78,7 +78,7 @@
 			<div class="wrapper__about-us">
 				<div class="about__us">
 					<div class="title__info">
-						<div class="info-title">About us</div>
+						<div id="about" class="info-title">About us</div>
 						<div class="info-subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
 					</div>
 		
@@ -156,7 +156,7 @@
 			<div class="wrapper__latest-works">
 	
 				<div class="title__info">
-					<div class="info-title">Latest Works</div>
+					<div id="works" class="info-title">Latest Works</div>
 					<div class="info-subtitle">
 						<a class="red" href="#" >All</a>  
 						<a href="#">Design</a> 
@@ -217,7 +217,9 @@
 								Let's talk about YOUR PROJECT!</span></div>
 						</div>	
 						<div class="project-button">
-							<button  type="submit" class="button">Get in Touch</button>
+							<button class="button">
+								<a href="#contact">Get in Touch</a>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -227,7 +229,7 @@
 	
 			<div class="wrapper__resent-blog-posts">
 				<div class="title__info">
-					<div class="info-title">Recent blog posts</div>
+					<div id="blog" class="info-title">Recent blog posts</div>
 					<div class="info-subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
 				</div>
 	
@@ -281,7 +283,7 @@
 	
 	
 	
-			<div class="wrapper__clients">
+			<div id="clients" class="wrapper__clients">
 				<div class="clients-flex">
 					<div class="clients-logo">
 						<div class="client-1">
@@ -321,7 +323,7 @@
 	
 			<div class="wrapper__get-in-touch">
 				<div class="title__info">
-					<div class="info-title">Get in Touch</div>
+					<div id="contact" class="info-title">Get in Touch</div>
 					<div class="info-subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</div>
 				</div>
 				<div class="get-in-touch__wrapper">
@@ -354,7 +356,7 @@
 			
 	
 					<div class="get-in-touch__form">
-						<form action="#" method="post" enctype="multipart/form-data">
+						<form action="#" target="_self" method="post" enctype="multipart/form-data">
 							<div class="input-input-e-mail">
 								<p><input  tabindex="1"class="input-form form-input" type="text" name="username" value=""></p>
 								<p><input tabindex="2"  class="input-form" placeholder="your e-mail" type="email" name="usermail" value=""></p>	
